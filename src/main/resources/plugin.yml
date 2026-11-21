@@ -1,0 +1,16 @@
+name: CustomMenus
+version: 1.0.0
+main: dev.custommenus.CustomMenus
+api-version: '26.3'
+description: Tworzenie menu GUI z poziomu gry - stworzone przez Mapthio Code
+authors: [Mapthio Code]
+commands:
+  menu:
+    description: Zarzadzanie menu GUI
+    usage: /menu help
+    aliases: [cmenu]
+permissions:
+  custommenus.admin:
+    default: op
+  custommenus.use:
+    default: true
